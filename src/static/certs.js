@@ -16,7 +16,7 @@ const certs = [
   {
     title: 'New Bora Bora',
     description:
-      'Modern JS features | React basics | JSX | State и Props | Component life cycle | Routing in React | Immutable.js | Redux | Middleware | Hooks | NodeJS | Express | Koa.js',
+      'Modern JS features | React basics | JSX | State | Props | Component life cycle | Routing in React | Immutable.js | Redux | Middleware | Hooks | NodeJS | Express | Koa.js',
     imageUrl: process.env.PUBLIC_URL + '/assets/c3.jpg',
     time: 1500,
   },
