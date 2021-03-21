@@ -84,13 +84,13 @@ export default function Header() {
         </Toolbar>
       </AppBar>
 
-      <Collapse
-        in={checked}
-        {...(checked ? { timeout: 1000 } : {})}
-        collapsedHeight={50}
-      >
-        <div className={classes.container}>
-          <Title size="210" text1="FULL STACK" text2="&npsb;JS DEVELOPER&npsb;" open={true} />
+      <div className={classes.container}>
+        <Title size="210" text1="FULL STACK" text2="JS DEVELOPER" open={true} />
+        <Collapse
+          in={checked}
+          {...(checked ? { timeout: 1000 } : {})}
+          collapsedHeight={50}
+        >
           <br />
           <img className={classes.avatar} src={avatar} alt="me" />
           <h1 className={classes.title}>
@@ -106,8 +106,8 @@ export default function Header() {
               <ExpandMoreIcon className={classes.goDown} />
             </IconButton>
           </Scroll>
-        </div>
-      </Collapse>
+        </Collapse>
+      </div>
     </div>
   );
 }
