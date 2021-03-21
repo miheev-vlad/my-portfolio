@@ -86,11 +86,11 @@ export default function Header() {
 
       <Collapse
         in={checked}
-        {...(checked ? { timeout: 1500 } : {})}
+        {...(checked ? { timeout: 1000 } : {})}
         collapsedHeight={50}
       >
         <div className={classes.container}>
-          <Title size="210" text1="FULL STACK" text2="JS DEVELOPER" open={true} />
+          <Title size="210" text1="FULL STACK" text2="DEVELOPER" open={true} />
           <br />
           <img className={classes.avatar} src={avatar} alt="me" />
           <h1 className={classes.title}>
