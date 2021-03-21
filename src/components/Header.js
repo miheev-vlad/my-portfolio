@@ -5,7 +5,7 @@ import SchoolIcon from '@material-ui/icons/School';
 import AppsIcon from '@material-ui/icons/Apps';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Link as Scroll } from 'react-scroll';
-import Title from 'react-titles/Title3';
+import Title from 'react-titles/Title8';
 import avatar from '../avatar.png';
 import Typed from 'react-typed';
 
@@ -85,7 +85,7 @@ export default function Header() {
       </AppBar>
 
       <div className={classes.container}>
-        <Title size="210" text2="FULL STACK" text1="JS DEVELOPER" open={true} />
+        <Title size="220" text1="FULL STACK" text2="JS DEVELOPER" open={true} />
         <Collapse
           in={checked}
           {...(checked ? { timeout: 1000 } : {})}
