@@ -85,7 +85,7 @@ export default function Header() {
       </AppBar>
 
       <div className={classes.container}>
-        <Title size="210" text1="FULL STACK" text2="JS DEVELOPER" open={true} />
+        <Title size="210" text1="FULL STACK JS" text2="DEVELOPER" open={true} />
         <Collapse
           in={checked}
           {...(checked ? { timeout: 1000 } : {})}
