@@ -90,7 +90,7 @@ export default function Header() {
         collapsedHeight={50}
       >
         <div className={classes.container}>
-          <Title size="210" text1="FULL STACK" text2=" JS DEVELOPER " open={true} />
+          <Title size="210" text1="FULL STACK" text2="&npsb;JS DEVELOPER&npsb;" open={true} />
           <br />
           <img className={classes.avatar} src={avatar} alt="me" />
           <h1 className={classes.title}>
