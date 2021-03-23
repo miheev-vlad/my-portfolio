@@ -3,7 +3,7 @@ const places = [
     title: 'Urban Renew App',
     demo: 'https://urban-app-a085c.web.app',
     description:
-      "The application allows you to view proposals for improving the urban environment. You can leave your suggestion. To do this, you must enter the application if you have an account, if not, register.",
+      "The application allows you to view all suggestions for improving the urban environment. You can leave your suggestion. For this: click the LogIn or SignUp button, formulate your suggestion and click the submit button.",
     imageUrl: process.env.PUBLIC_URL + '/assets/app1.jpg',
     time: 1500,
   },
