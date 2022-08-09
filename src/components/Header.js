@@ -6,7 +6,7 @@ import AppsIcon from '@material-ui/icons/Apps';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Link as Scroll } from 'react-scroll';
 import Title from 'react-titles/Title8';
-import avatar from '../avatar.png';
+import avatar from '../avatar.jpg';
 import Typed from 'react-typed';
 
 const useStyles = makeStyles((theme) => ({
@@ -51,8 +51,7 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     marginTop: '20px',
-    width: theme.spacing(20),
-    height: theme.spacing(20),
+    width: theme.spacing(25),
     borderRadius: '30px',
   },
 }));
